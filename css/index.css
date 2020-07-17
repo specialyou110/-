@@ -1,0 +1,391 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+	height: 400rem;
+}
+
+
+.navchange {
+	position: fixed;
+	width: 100%;
+	z-index: 99;
+}
+
+.myself {
+	background: #f66483;
+	width: 80%;
+	height: 40rem;
+	margin: auto;
+}
+
+.myself_wrap {
+	width: 80%;
+	height: 40rem;
+	margin: auto;
+
+}
+
+
+.myself_wrap_left {
+	width: 50%;
+	height: 40rem;
+
+	float: left;
+}
+
+.myself_lefta {
+	text-align: center;
+	font-size: 4rem;
+	margin-top: 2rem;
+
+}
+
+.myself_lefta a {
+	color: #f1f1f1;
+	text-decoration: none;
+}
+
+.myself_leftp a {
+	font-size: 1.8rem;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+.myself_left_input {
+	width: 15rem;
+	height: 5rem;
+	background-color: #ffff;
+	border-radius: 52px;
+	margin: auto;
+	margin-top: 5rem;
+}
+
+
+.myself_wrap_right {
+	height: 40rem;
+	margin: 0 auto;
+	padding: 0rem 13rem;
+}
+
+.myself_wrap_right p {
+	color: aliceblue;
+}
+
+.myself_right_img {
+	width: 20rem;
+}
+
+.myself_rightp {
+	padding: 30px 0;
+}
+
+.mywork {
+	background-color:#343434;
+	height: 15rem;
+	text-align: center;
+}
+
+.mywork a {
+	font-size: 1.4rem;
+	text-decoration: none;
+	color: #f1f1f1;
+}
+
+.henxian {
+	height: 0.0625rem;
+	width: 5%;
+	background-color:#ffffff;
+	margin: 0.3125rem;
+	text-transform: uppercase;
+	display: inline-flex;
+	flex-direction: column;
+	align-items: center;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+}
+
+.mkcont {
+	background: #fff;
+}
+
+
+
+.ui {
+	width: 50px;
+	height: 200px;
+	background: red;
+	float: left;
+}
+
+.op {
+	width: 50px;
+	height: 50px;
+	background: green;
+	border-radius: 50px;
+}
+
+.bor {
+	width: 2px;
+	height: 150px;
+	background: #1B6D85;
+	margin: 0 auto;
+}
+
+.xmk {
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+
+}
+
+.xmk_img_bottom {
+	width: 2px;
+	height: 150px;
+	margin: 0 auto;
+	background: #1B6D85;
+}
+
+.mywork_font {
+	float: left;
+	width: 350px;
+	height: 200px;
+	text-align: center;
+}
+
+.mywork_font span {
+	font-size: 17px;
+}
+
+.mywork_font p {
+	font-size: 14px;
+	color: #999;
+	margin-top: 2rem;
+}
+
+.mywork_font a {
+	color: #343434;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+
+/* 项目/个人经验 */
+
+.xmk_img {
+	width: 50px;
+	height: 200px;
+	float: left;
+}
+
+.xmk_img_top {
+	width: 50px;
+	height: 50px;
+    background: #3eafab;
+	border-radius: 50px;
+
+}
+
+.myworkfloat {
+	margin-top: 4rem;
+}
+.myworkfloat span{
+	color: #FFFFFF;
+}
+
+.mycont_jinli {
+	width: 60rem;
+	height: 20rem;
+
+	margin: auto;
+	margin-top: 5rem;
+}
+
+
+.mycont_jinli_left {
+	width: 15rem;
+	height: 20rem;
+	float: left;
+}
+
+.mycont_jinli_img {
+	width: 5rem;
+	height: 5rem;
+	background-color: #f67590;
+	border-radius: 100%;
+	position: absolute;
+	margin-left: 12.5rem;
+}
+
+.mycont_jinli_right {
+	width: 45rem;
+	height: 20rem;
+	text-align: center;
+	float: right;
+}
+
+.name {
+	font-size: 40px;
+	text-align: center;
+	color: aliceblue;
+}
+
+.name_input {
+	width: 12rem;
+	height: 5rem;
+	border-radius: 5rem;
+    background-color: #f0f8ff;
+	margin: auto;
+	text-align: center;
+	line-height: 5rem;
+}
+
+a{
+	text-decoration: none;
+}
+.name_input span{
+    font-size: 19px;
+	color: #000000;
+   
+}
+
+.jianjie {
+	font-size: 15px;
+	color: aliceblue;
+	padding: 33px 0px;
+}
+
+.work_head {
+	width: 100%;
+	height: 80rem;
+	background-color: #fff;
+}
+
+
+
+
+
+
+
+/* 技能条 */
+.master_container {
+	margin-top: 4rem;
+}
+
+
+.master_con {
+
+	height: 70px;
+	margin-top: 1rem;
+
+}
+
+.master_howmuch {
+	height: 15px;
+	background: #efefef;
+	margin: 10px auto;
+}
+
+.master span {
+	font-size: 22px;
+	color: #343434;
+	margin-left: 1rem;
+}
+
+
+.master_con span {
+	font-size: 15px;
+	color: #999f;
+}
+
+.master a {
+	font-size: 14px;
+	color: #999999;
+	text-decoration: none;
+	line-height: 5rem;
+}
+
+.master_howmuch1 {
+	width: 89%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch2 {
+	width: 65%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch3 {
+	width: 81%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch4 {
+	width: 80%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch5 {
+	width: 80%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch6 {
+	width: 75%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch7 {
+	width: 64%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+.master_howmuch8 {
+	width: 70%;
+	height: 15px;
+	background: #37b0ac;
+}
+
+
+/* 项目经历图片 */
+
+
+.yy {
+	width: 350px;
+	height: 350px;
+	    box-shadow: 2px 4px 2px 2px #9e9e9e82;
+}
+
+.yy-div {
+	width: 100px;
+	height: 100px;
+	background: rgba(0, 128, 0, 0);
+	transition: all .1s;
+	position: absolute;
+	top: 0;
+}
+
+.yy-div:hover {
+	width: 350px;
+	height: 350px;
+    background: rgba(36, 36, 36, .3);
+}
+
+.yy-img {
+	width: 100% !important;
+	height: auto;
+}
+
+.yy img:hover {
+	background: ;
+}
